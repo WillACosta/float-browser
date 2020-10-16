@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Float Browser</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Float Browser</h1>
+    <div class="content">
+      <p>Digite a URL para visualização</p>
+      <div class="content__item">
+        <form>
+          <input type="text" placeholder="URL" value="http://localhost:3000/">
+        </form>
+        <button>Visualizar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
