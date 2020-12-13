@@ -1,5 +1,7 @@
 # Float Browser
 
+<img src='https://i.imgur.com/xVkE0Gu.png' />
+
 Uma simples aplicação flutuante para visualização de páginas web. Escrita com Electron. Muito útil para desenvolver aplicações que necessitam ver a alteração em tempo real e sobrepor as outras janelas abertas
 
 ## Como usar
